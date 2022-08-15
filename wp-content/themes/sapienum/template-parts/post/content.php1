@@ -1,0 +1,57 @@
+<?php
+/**
+ * Template part for displaying posts
+ *
+ * @link https://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package WordPress
+ * @subpackage sapienum
+ * @since 1.0
+ * @version 1.2
+ */
+
+?>
+
+
+<div class="commentBox">
+                    <h2><a href="<?php the_permalink() ?>">
+                        <?php the_title(); ?>
+                    </a>
+                </h2>
+                    <p><?php the_excerpt('800'); ?>                       
+                    </p>
+                    <div class="listDetail">
+                        <ul class="socialLike">
+                            <li>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-chevron-up"></i></a>
+                                <a href="#"><i class="fa fa-chevron-down"></i></a>
+                            </li>
+                        </ul>
+                        <ul class="dateTime">
+                            <li><?php echo get_the_date(); ?></li>                   
+                            <li><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>"><?php the_author(); ?></a></li>
+                            <li>
+                                <figure>
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dot.png"  alt="dot" >
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
+                        <div class="entry-content">
+        <?php
+        /* translators: %s: Name of current post */
+        wp_link_pages( array(
+            'before'      => '<div class="page-links">' . __( 'Pages:', 'sapienum' ),
+            'after'       => '</div>',
+            'link_before' => '<span class="page-number">',
+            'link_after'  => '</span>',
+        ) );
+        ?>
+    </div><!-- .entry-content -->
+                </div>
+
+

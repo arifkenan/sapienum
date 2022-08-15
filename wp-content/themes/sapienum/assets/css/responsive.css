@@ -1,0 +1,92 @@
+@media (max-width:1530px){
+	.GoogleAddSec { width: 26%;}
+	.middleSec { margin-right: 30px;}
+	.middleContent .newcont{padding: 0;}
+	.container{padding:0 15px;}
+	/*.rightSec{padding-left: 30px;}*/
+	/*.register {  padding-left: 30px}*/
+}
+@media (max-width:1279px){
+	.leftSidebar{width: 30%;}
+	.rightSec{width: 70%;}
+}
+@media (max-width:1199px){
+	.searchHeader .form-group { width: 75%;}
+	.middleSec { margin-right: 15px;}
+	.middleSec{padding: 15px;}
+	.commentBox h2{line-height: 28px;}
+	.groupSeclect select.month {  width: 100px;}
+	.groupSeclect select {  margin-right: 5px;}
+	.login, .register{margin-right: 0;width: 60%;}
+}
+@media (min-width:992px){
+	.leftSidebar ul{display: block !important;}
+}
+@media (max-width:991px){
+	.searchHeader .form-group { width: 70%;}
+	.rightSec {width: 65%;}
+
+	.leftSidebar {  width: 35%;  padding-bottom: 20px;}
+	.mobile_nav {display: block;}
+	.brand { width: 26%;}
+	.searchHeader { width: 48%}
+	.search-form .search-submit .icon {  width: 18px;}
+	.searchHeader .search-form .search-submit { padding: 10px 8px 9px;}
+	.loginMenu { width: 26%;}
+	.login { margin-right: 33px;}
+	.register {  width: 62%;}
+	.middleSec{margin-right: 10px;}
+	.login, .register{margin-right: 0;width: 100%;}
+
+}
+@media (max-width:767px){
+	.brand { width: 100%;display: block;    float: left;    text-align: center; margin-bottom: 22px;}
+	.nabar {  float: left; padding: 15px 0 20px;}
+	.search-submit .screen-reader-text{font-size: 0}
+	.searchHeader { width:60%; float: left;}
+	.loginMenu {    width: 40%;    float: right; margin-top: 10px}
+	.navigation{float: left;width: 100%;}
+	.searchHeader .form-group {    width: 78%;}
+	.loginMenu {  width: 42%;}
+	.searchHeader { width: 58%;}
+	#login-menu li {  padding: 0 4px;}
+	.rightSec {	    padding: 0 10px;	}
+	.middleSec {   margin-right: 0; width: 100%;box-shadow: none;}
+	.GoogleAddSec {    width:100%;}
+	.footer { padding: 50px 0;}
+	.messageList { margin-bottom: 60px;}
+	.register {    width: 100%;    padding: 0;    border: 0;}
+	.login {width: 100%;}
+	.login-register .login h2{padding-top: 0;}
+	.login-register .leftSidebar {padding-left: 11px;}
+    .click_to_see{display: block;margin: 0;cursor: pointer;font-size: 20px;}
+    #click_to_change{display: inline-block;}
+    #topicbar_sapienum{margin-top: 20px;display: none;}
+    .leftSidebar, .rightSec{width: 100%;padding: 15px;}
+    .rightSec .lefthead, #secondary {display: none;}
+    .dropdown .dropdown-content{right: 0;}
+    .commentBox p{font-size: 15px;}
+    .leftSidebar ul li a{font-size: 15px;}
+    .newcont .middleSec li {
+    line-height: 24px;
+    font-size: 15px;
+}
+}
+@media (max-width:479px){
+	.searchHeader { width: 100%;}
+	#login-menu li {  float: none;}
+	.loginMenu {  width: 100%;}
+	#login-menu{float: none;text-align: center;}
+	.brand { margin-bottom: 12px;}
+	.leftSidebar {    width: 100%;   padding-left: 10px;}
+	.listDetail ul {    width: 100%;    margin-bottom: 20px;}
+	.commentBox { margin-bottom: 27px;text-align: center;}
+	ul#main-menu {    text-align: center;}
+	.middleContent {  padding: 26px 0 0;}
+	.footer li { padding-right: 20px;}
+	#footer-menu {    text-align: center;}
+	.groupSeclect select.year {    width: 87px;}
+	.groupSeclect select.month {    width: 90px;}
+	.groupSeclect select.date {    width: 70px;}   
+   
+}
